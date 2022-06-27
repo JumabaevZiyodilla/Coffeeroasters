@@ -1,13 +1,12 @@
  <!DOCTYPE html>
  <html lang="en">
+
  <head>
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Coffeeroasters</title>
-     <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
-     <!-- <link rel="stylesheet" href="./css/main.css"> -->
-     <link rel="stylesheet" href="./css/main.min.css">
+     <link rel="stylesheet" href="./css/main.css">
  </head>
  <body>
      <!-- header start -->
@@ -20,16 +19,14 @@
                  <nav class="header-nav">
                      <ul class="nav-list">
                          <li class="nav-item">
-                             <a class="nav-link" href="./index.html">HOME </a>
+                             <a class="nav-link" href="./index.html">HOME</a>
                          </li>
                          <li class="nav-item">
                              <a class="nav-link" href="./about.html">ABOUT US</a>
                          </li>
-                         <li class="nav-item">
-                             <a class="nav-link" href="#">Create your plan</a>
-                         </li>
                      </ul>
                  </nav>
+                 <button class="nav-link header-btn" type="button">Create your plan</button>
              </div>
          </div>
      </header>
@@ -52,10 +49,8 @@
                          <a class="simply-link" href="#">Create your plan</a>
                      </div>
                      <div class="simply-img">
-                         <img src="./images/simply-img.png" 
-                            width="710" 
-                            height="596"
-                            srcset="./images/simply-img.png 1x, ./images/simply-img-retina.png 2x" alt="coffee">
+                         <img src="./images/simply-img.png" width="710" height="596"
+                             srcset="./images/simply-img.png 1x, ./images/simply-img-retina.png 2x" alt="coffee">
                      </div>
                  </div>
              </div>
@@ -271,6 +266,28 @@
          </div>
      </footer>
      <!-- footer end -->
+
+         <!-- modal -->
+    <div class="modal">
+        <div class="modal-window">
+            <div class="modal-title-box">
+                <h3 class="modal-title">ORDER SUMMARY</h3>
+            </div>
+            <div class="modal-text-box">
+                <p class="modal-menu-text">“I drink my coffee as <span class="modal-tiny">Filter,</span> with a <span
+                        class="modal-tiny">Decaf</span> type of bean. <span class="modal-tiny">250g</span> ground ala
+                    <span class="modal-tiny">Cafetiére,</span> sent to me <span class="modal-tiny">Every Week</span>.”
+                </p>
+                <p class="modal-text">Is this correct? You can proceed to checkout or go back to plan selection if
+                    something is off. Subscription discount codes can also be redeemed at the checkout. </p>
+                <div class="btn-box">
+                    <p class="modal-price-text">$14.00/ mo</p>
+                    <button class="js-close-modal" type="modal">CHECKOUT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
  </body>
 
  </html>
