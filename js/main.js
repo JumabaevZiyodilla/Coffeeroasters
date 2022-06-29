@@ -1,4 +1,5 @@
-var elModalOpenButton = document.querySelector(".header-btn");
+
+var elModalOpenButton = document.querySelector(".drink-create-btn");
 var elModal = document.querySelector(".modal");
 
 elModalOpenButton.addEventListener("click", function(){
@@ -11,3 +12,5 @@ var elModalCloseButton = document.querySelector(".js-close-modal");
 elModalCloseButton.addEventListener("click" , function (){
   elModal.classList.remove("modal-show");
 })
+
+
