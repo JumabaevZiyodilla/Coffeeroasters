@@ -32,7 +32,7 @@
                         </li>
                     </ul>
                 </nav>
-                
+
             </div>
         </div>
     </header>
@@ -43,10 +43,10 @@
         <section class="site-header simply">
             <div class="container">
                 <div class="simply-box-primary">
-                    <div class="simple-box">
-                        <h1 class="simply-title">
+                    <div class="about-box">
+                        <h2 class="simply-title">
                             Create plan
-                        </h1>
+                        </h2>
                         <p class="simply-text">
                             Coffee the way you wanted it to be. For coffee delivered tomorrow, or next week. For
                             whatever brew method you use. For choice, for convenience, for quality.
@@ -63,48 +63,55 @@
         <!-- section simply end -->
 
         <!-- section pick start -->
-        <section class="pick">
-            <div class="container">
-                <div class="pick-box-primary">
-                    <div class="pick-box">
-                        <span class="pick-tiny-one"></span>
-                        <span class="pick-tiny-one works-tiny-two"></span>
-                        <span class="pick-tiny-one works-tiny-three"></span>
-                        <span class="pick-tiny-border"></span>
+        <section class="works pick">
+            <div class="works-pack">
+                <div class="container">
+                    <div class="works-box">
+                        <span class="works-tiny-one pick-tiny"></span>
+                        <span class="works-tiny-one works-tiny-two pick-tiny"></span>
+                        <span class="works-tiny-one works-tiny-three pick-tiny"></span>
+                        <span class="works-tiny-border pick-tiny"></span>
                     </div>
-                    <ul class="pick-list">
-                        <li class="pick-item">
-                            <div class="pick-item-title-box">
-                                <h3 class="pick-item-title">pick your coffee</h3>
+                    <ol class="works-list pick-list">
+                        <li class="works-item">
+                            <div class="works-item-box">
+                                <div class="works-item-title-box">
+                                    <h3 class="works-item-title">Pick your coffee</h3>
+                                </div>
+                                <p class="works-item-text">
+                                    Select from our evolving range of artisan coffees. Our beans are ethically sourced
+                                    and we pay fair prices for them. There are new coffees in all profiles every month
+                                    for you to try out.
+                                </p>
+                                <span class="works-item-tiny">01</span>
                             </div>
-                            <p class="pick-item-text">
-                                Select from our evolving range of artisan coffees. Our beans are ethically sourced and
-                                we pay fair prices for them. There are new coffees in all profiles every month for you
-                                to try out.
-                            </p>
-                            <span class="pick-item-tiny">02</span>
                         </li>
-                        <li class="pick-item">
-                            <div class="pick-item-title-box">
-                                <h3 class="pick-item-title">choose the frequency</h3>
+                        <li class="works-item">
+                            <div class="works-item-box">
+                                <div class="works-item-title-box">
+                                    <h3 class="works-item-title">Choose the frequency</h3>
+                                </div>
+                                <p class="works-item-text">
+                                    Customize your order frequency, quantity, even your roast style and grind type.
+                                    Pause, skip or cancel your subscription with no commitment through our online
+                                    portal.
+                                </p>
+                                <span class="works-item-tiny">02</span>
                             </div>
-                            <p class="pick-item-text">
-                                Customize your order frequency, quantity, even your roast style and grind type. Pause,
-                                skip or cancel your subscription with no commitment through our online portal.
-                            </p>
-                            <span class="pick-item-tiny">01</span>
                         </li>
-                        <li class="pick-item">
-                            <div class="pick-item-title-box">
-                                <h3 class="pick-item-title">receive and enjoy!</h3>
+                        <li class="works-item">
+                            <div class="works-item-box">
+                                <div class="works-item-title-box">
+                                    <h3 class="works-item-title">Receive and enjoy!</h3>
+                                </div>
+                                <p class="works-item-text">
+                                    We ship your package within 48 hours, freshly roasted. Sit back and enjoy
+                                    award-winning world-class coffees curated to provide a distinct tasting experience.
+                                </p>
+                                <span class="works-item-tiny">03</span>
                             </div>
-                            <p class="pick-item-text">
-                                We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning
-                                world-class coffees curated to provide a distinct tasting experience.
-                            </p>
-                            <span class="pick-item-tiny">03</span>
                         </li>
-                    </ul>
+                    </ol>
                 </div>
             </div>
         </section>
@@ -134,56 +141,201 @@
                         </ol>
                     </div>
                     <div class="drink-form-box">
-                        <form action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
-                            <button class="drink-item-btn">how do you drink your coffee?</button>
+                        <form action="" method="post" autocomplete="off">
                             <ol class="drink-list">
                                 <li class="drink-item">
-                                    <div class="drink-item-box">
-                                        <label>
-                                            <input class="drink-item-input" type="radio" name="user_radio">
+                                    <details class="input-details">
+                                        <summary class="input-summary">
+                                            HOW YOU DRINK YOUR COFFEE?
+                                        </summary>
+                                        <label class="input-label">
+                                            <input class="input-radio" type="radio" name="user_radio"
+                                                aria-label="Choose your coffee">
+                                            <span class="input-tiny-box">
+                                                <span class="input-tiny-title">Capsule</span>
+                                                <span class="input-tiny-text">
+                                                    Compatible with Nespresso systems and similar brewers
+                                                </span>
+                                            </span>
                                         </label>
-                                        <div class="drink-item-box-tiny">
-                                            <p class="drink-item-tiny">filter</p>
-                                            <p class="drink-item-tinys">
-                                                Compatible with Nespresso systems and similar brewers
-                                            </p>
-                                        </div>
-                                    </div>
+                                        <label class="input-label">
+                                            <input class="input-radio" type="radio" name="user_radio"
+                                                aria-label="Choose your coffee">
+                                            <span class="input-tiny-box">
+                                                <span class="input-tiny-title">Filter</span>
+                                                <span class="input-tiny-text">
+                                                    For pour over or drip methods like Aeropress, Chemex, and V60
+                                                </span>
+                                            </span>
+                                        </label>
+                                        <label class="input-label">
+                                            <input class="input-radio" type="radio" name="user_radio"
+                                                aria-label="Choose your coffee">
+                                            <span class="input-tiny-box">
+                                                <span class="input-tiny-title">Expresso</span>
+                                                <span class="input-tiny-text">
+                                                    Dense and finely ground beans for an intense, flavorful experience
+                                                </span>
+                                            </span>
+                                        </label>
+                                    </details>
                                 </li>
                                 <li class="drink-item">
-                                    <div class="drink-item-box">
-                                        <label>
-                                            <input class="drink-item-input" type="radio" name="user_radio">
+                                    <details class="input-details">
+                                        <summary class="input-summary">
+                                            WHAT TYPR OF COFFEE?
+                                        </summary>
+                                        <label class="input-label">
+                                            <input class="input-radio" type="radio" name="user_radio"
+                                                aria-label="Choose your coffee">
+                                            <span class="input-tiny-box">
+                                                <span class="input-tiny-title">Capsule</span>
+                                                <span class="input-tiny-text">
+                                                    Compatible with Nespresso systems and similar brewers
+                                                </span>
+                                            </span>
                                         </label>
-                                        <div class="drink-item-box-tiny">
-                                            <p class="drink-item-tiny">espresso</p>
-                                            <p class="drink-item-tinys">
-                                                For pour over or drip methods like Aeropress, Chemex, and V60
-                                            </p>
-                                        </div>
-                                    </div>
+                                        <label class="input-label">
+                                            <input class="input-radio" type="radio" name="user_radio"
+                                                aria-label="Choose your coffee">
+                                            <span class="input-tiny-box">
+                                                <span class="input-tiny-title">Filter</span>
+                                                <span class="input-tiny-text">
+                                                    For pour over or drip methods like Aeropress, Chemex, and V60
+                                                </span>
+                                            </span>
+                                        </label>
+                                        <label class="input-label">
+                                            <input class="input-radio" type="radio" name="user_radio"
+                                                aria-label="Choose your coffee">
+                                            <span class="input-tiny-box">
+                                                <span class="input-tiny-title">Expresso</span>
+                                                <span class="input-tiny-text">
+                                                    Dense and finely ground beans for an intense, flavorful experience
+                                                </span>
+                                            </span>
+                                        </label>
+                                    </details>
                                 </li>
                                 <li class="drink-item">
-                                    <div class="drink-item-box">
-                                        <label>
-                                            <input class="drink-item-input" type="radio" name="user_radio">
+                                    <details class="input-details">
+                                        <summary class="input-summary">
+                                            HOW MUCH WOULD YOU LIKE?
+                                        </summary>
+                                        <label class="input-label">
+                                            <input class="input-radio" type="radio" name="user_radio"
+                                                aria-label="Choose your coffee">
+                                            <span class="input-tiny-box">
+                                                <span class="input-tiny-title">Capsule</span>
+                                                <span class="input-tiny-text">
+                                                    Compatible with Nespresso systems and similar brewers
+                                                </span>
+                                            </span>
                                         </label>
-                                        <div class="drink-item-box-tiny">
-                                            <p class="drink-item-tiny">capsule</p>
-                                            <p class="drink-item-tinys">
-                                                Dense and finely ground beans for an intense, flavorful experience
-                                            </p>
-                                        </div>
-                                    </div>
+                                        <label class="input-label">
+                                            <input class="input-radio" type="radio" name="user_radio"
+                                                aria-label="Choose your coffee">
+                                            <span class="input-tiny-box">
+                                                <span class="input-tiny-title">Filter</span>
+                                                <span class="input-tiny-text">
+                                                    For pour over or drip methods like Aeropress, Chemex, and V60
+                                                </span>
+                                            </span>
+                                        </label>
+                                        <label class="input-label">
+                                            <input class="input-radio" type="radio" name="user_radio"
+                                                aria-label="Choose your coffee">
+                                            <span class="input-tiny-box">
+                                                <span class="input-tiny-title">Expresso</span>
+                                                <span class="input-tiny-text">
+                                                    Dense and finely ground beans for an intense, flavorful experience
+                                                </span>
+                                            </span>
+                                        </label>
+                                    </details>
+                                </li>
+                                <li class="drink-item">
+                                    <details class="input-details">
+                                        <summary class="input-summary">
+                                            WANT US TO GRIND THEM?
+                                        </summary>
+                                        <label class="input-label">
+                                            <input class="input-radio" type="radio" name="user_radio"
+                                                aria-label="Choose your coffee">
+                                            <span class="input-tiny-box">
+                                                <span class="input-tiny-title">Capsule</span>
+                                                <span class="input-tiny-text">
+                                                    Compatible with Nespresso systems and similar brewers
+                                                </span>
+                                            </span>
+                                        </label>
+                                        <label class="input-label">
+                                            <input class="input-radio" type="radio" name="user_radio"
+                                                aria-label="Choose your coffee">
+                                            <span class="input-tiny-box">
+                                                <span class="input-tiny-title">Filter</span>
+                                                <span class="input-tiny-text">
+                                                    For pour over or drip methods like Aeropress, Chemex, and V60
+                                                </span>
+                                            </span>
+                                        </label>
+                                        <label class="input-label">
+                                            <input class="input-radio" type="radio" name="user_radio"
+                                                aria-label="Choose your coffee">
+                                            <span class="input-tiny-box">
+                                                <span class="input-tiny-title">Expresso</span>
+                                                <span class="input-tiny-text">
+                                                    Dense and finely ground beans for an intense, flavorful experience
+                                                </span>
+                                            </span>
+                                        </label>
+                                    </details>
+                                </li>
+                                <li class="drink-item">
+                                    <details class="input-details">
+                                        <summary class="input-summary">
+                                            HOW OFTEN SHOULD WE DELIVER?
+                                        </summary>
+                                        <label class="input-label">
+                                            <input class="input-radio" type="radio" name="user_radio"
+                                                aria-label="Choose your coffee">
+                                            <span class="input-tiny-box">
+                                                <span class="input-tiny-title">Capsule</span>
+                                                <span class="input-tiny-text">
+                                                    Compatible with Nespresso systems and similar brewers
+                                                </span>
+                                            </span>
+                                        </label>
+                                        <label class="input-label">
+                                            <input class="input-radio" type="radio" name="user_radio"
+                                                aria-label="Choose your coffee">
+                                            <span class="input-tiny-box">
+                                                <span class="input-tiny-title">Filter</span>
+                                                <span class="input-tiny-text">
+                                                    For pour over or drip methods like Aeropress, Chemex, and V60
+                                                </span>
+                                            </span>
+                                        </label>
+                                        <label class="input-label">
+                                            <input class="input-radio" type="radio" name="user_radio"
+                                                aria-label="Choose your coffee">
+                                            <span class="input-tiny-box">
+                                                <span class="input-tiny-title">Expresso</span>
+                                                <span class="input-tiny-text">
+                                                    Dense and finely ground beans for an intense, flavorful experience
+                                                </span>
+                                            </span>
+                                        </label>
+                                    </details>
                                 </li>
                             </ol>
-                            <button class="drink-item-btn">what type of coffee?</button>
-                            <button class="drink-item-btn">how much would you like?</button>
-                            <button class="drink-item-btn">want us to grind them?</button>
-                            <button class="drink-item-btn">how often should we deliver?</button>
                             <div class="summary-box">
                                 <h3 class="summary-title">order Summary</h3>
-                                <p class="summary-text">“I drink my coffee using <span class="summary-text summary-tiny">Capsules</span>, with a <span class="summary-tiny">_____ </span> type of bean. <span class="summary-tiny">_____ </span>, sent to me <span class="summary-tiny">_____</span>.”</p>
+                                <p class="summary-text">“I drink my coffee using <span
+                                        class="summary-text summary-tiny">Capsules</span>, with a <span
+                                        class="summary-tiny">_____ </span> type of bean. <span
+                                        class="summary-tiny">_____ </span>, sent to me <span
+                                        class="summary-tiny">_____</span>.”</p>
                             </div>
                             <button class="drink-create-btn" type="button">create me plan</button>
                         </form>
@@ -192,12 +344,12 @@
             </div>
         </section>
         <!-- section drink end -->
-        </main>
-        <!-- main end -->
+    </main>
+    <!-- main end -->
 
-        
-     <!-- footer start -->
-     <footer class="site-footer">
+
+    <!-- footer start -->
+    <footer class="site-footer">
         <div class="container">
             <div class="footer-box-primary">
                 <a class="footer-logo" href="./index.html">
@@ -205,14 +357,16 @@
                 </a>
                 <ul class="footer-list">
                     <li class="footer-item">
-                        <a class="footer-item-link" href="#">HOME</a>
+                        <a class="footer-item-link" href="./index.html">HOME</a>
                     </li>
                     <li class="footer-item">
-                        <a class="footer-item-link" href="#">ABOUT US</a>
+                        <a class="footer-item-link" href="./about.html">ABOUT US</a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-item-link" href="./create.html">CREATE YOUR PLAN</a>
                     </li>
                 </ul>
-                <button class="footer-item-link header-btn footer-btn" type="button">Create your plan</button>
-                <ul class="footer-list">
+                <ul class="footer-icon-list">
                     <li class="footer-item-icon">
                         <a target="blank" href="#">
                             <img src="./images/facebook.svg" width="30" height="30" alt="facebook">
@@ -234,24 +388,27 @@
     </footer>
     <!-- footer end -->
 
-        <!-- modal -->
-   <div class="modal">
-       <div class="modal-window">
-           <div class="modal-title-box">
-               <h3 class="modal-title">ORDER SUMMARY</h3>
-           </div>
-           <div class="modal-text-box">
-               <p class="modal-menu-text">“I drink my coffee as <span class="modal-tiny">Filter,</span> with a <span
-                       class="modal-tiny">Decaf</span> type of bean. <span class="modal-tiny">250g</span> ground ala
-                   <span class="modal-tiny">Cafetiére,</span> sent to me <span class="modal-tiny">Every Week</span>.”
-               </p>
-               <p class="modal-text">Is this correct? You can proceed to checkout or go back to plan selection if
-                   something is off. Subscription discount codes can also be redeemed at the checkout. </p>
-               <div class="btn-box">
-                   <p class="modal-price-text">$14.00/ mo</p>
-                   <button class="js-close-modal" type="button">CHECKOUT</button>
-               </div>
-           </div>
-       </div>
-   </div>
-   <script src="./js/main.js"></script>
+    <!-- modal -->
+    <div class="modal">
+        <div class="modal-window">
+            <div class="modal-title-box">
+                <h3 class="modal-title">ORDER SUMMARY</h3>
+            </div>
+            <div class="modal-text-box">
+                <p class="modal-menu-text">“I drink my coffee as <span class="modal-tiny">Filter,</span> with a <span
+                        class="modal-tiny">Decaf</span> type of bean. <span class="modal-tiny">250g</span> ground ala
+                    <span class="modal-tiny">Cafetiére,</span> sent to me <span class="modal-tiny">Every Week</span>.”
+                </p>
+                <p class="modal-text">Is this correct? You can proceed to checkout or go back to plan selection if
+                    something is off. Subscription discount codes can also be redeemed at the checkout. </p>
+                <div class="btn-box">
+                    <p class="modal-price-text">$14.00/ mo</p>
+                    <button class="js-close-modal" type="button">CHECKOUT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
